@@ -42,6 +42,22 @@ El pipeline corre automáticamente cada día a las 8:00 AM y ejecuta 3 pasos:
 2. **ETL** limpieza y transformación de datos
 3. **Métricas** cálculo de RFM y SLA
 
+## 🏷️ Estandarización de categorías
+
+El dataset original contiene más de 70 categorías en portugués con nombres inconsistentes. Se realizó un proceso de limpieza y agrupación en Python mapeando cada categoría a un grupo lógico en inglés.
+
+**Ejemplo de agrupaciones:**
+
+| Categorías originales | Grupo estandarizado |
+|---|---|
+| `construction_tools_construction`, `construction_tools_lights`, `construction_tools_safety` | Construction Tools |
+| `furniture_decor`, `furniture_bedroom`, `furniture_living_room` | Furniture |
+| `home_appliances`, `home_appliances_2` | Home Appliances |
+| `telephony`, `fixed_telephony` | Telephony |
+| `books_general_interest`, `books_technical` | Books |
+| `food`, `drinks` | Food & Drinks |
+| `fashion_bags_accessories`, `fashion_shoes`, `fashion_underwear_beach` | Fashion |
+
 
 
 ## 🛠️ Stack tecnológico
