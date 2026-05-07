@@ -72,6 +72,7 @@ python pipeline.py
 | `rfm` | Segmentación de clientes por Recencia, Frecuencia y Valor | `customer_unique_id` → `orders_clean` |
 | `sla_por_estado` | SLA de entregas agregado por estado | `customer_state` → `orders_clean` |
 | `Calendario` | Tabla de fechas para inteligencia de tiempo en DAX | `Date` → `orders_clean[Fecha Venta]` |
+
 ![Modelo de datos](screenshots/modelado.png)
 
 ## 📖 Glosario
