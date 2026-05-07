@@ -64,6 +64,16 @@ python pipeline.py
 - **Febrero 2018** registró la mayor caída de ventas, atribuida al Carnaval brasileño
 - Las categorías **Health & Beauty** y **Watches & Gifts** lideran en ingresos
 
+## 🗃️ Modelo de datos
+
+| Tabla | Descripción | Relación |
+|---|---|---|
+| `orders_clean` | Tabla principal con órdenes, clientes, productos y entregas | Central |
+| `rfm` | Segmentación de clientes por Recencia, Frecuencia y Valor | `customer_unique_id` → `orders_clean` |
+| `sla_por_estado` | SLA de entregas agregado por estado | `customer_state` → `orders_clean` |
+| `Calendario` | Tabla de fechas para inteligencia de tiempo en DAX | `Date` → `orders_clean[Fecha Venta]` |
+![Modelo de datos](screenshots/modelado.png)
+
 ## 📖 Glosario
 
 | Concepto | Definición |
