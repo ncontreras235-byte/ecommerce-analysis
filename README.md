@@ -3,7 +3,14 @@
 Proyecto de análisis de datos end-to-end usando el dataset público de Olist (marketplace brasileño) con Python y Power BI.
 
 ## 📊 Dashboard
-[Insertar screenshot del dashboard aquí]
+### General
+![General](screenshots/general.png)
+
+### Ciudades
+![Ciudades](screenshots/ciudades.png)
+
+### Clientes
+![Clientes](screenshots/clientes.png)
 
 ## 🏢 Sobre Olist
 Olist es un marketplace SaaS brasileño que conecta pequeños vendedores con los principales canales de venta de Brasil. No gestiona logística directamente — los vendedores coordinan sus propios envíos con transportistas externos.
