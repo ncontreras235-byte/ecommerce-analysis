@@ -57,6 +57,17 @@ python pipeline.py
 - **Febrero 2018** registró la mayor caída de ventas, atribuida al Carnaval brasileño
 - Las categorías **Health & Beauty** y **Watches & Gifts** lideran en ingresos
 
+## 📖 Glosario
+
+| Concepto | Definición |
+|---|---|
+| **GMV** | Gross Merchandise Value — valor total de mercancía transaccionada a través de la plataforma |
+| **SLA** | Service Level Agreement — porcentaje de órdenes entregadas dentro del plazo prometido al cliente |
+| **RFM** | Metodología de segmentación de clientes basada en Recencia, Frecuencia y Valor monetario |
+| **Clientes VIP** | Clientes con alta recencia, frecuencia y gasto — los más valiosos para el negocio |
+| **Clientes Leales** | Clientes con comportamiento de compra regular — base estable del negocio |
+| **Clientes en Riesgo** | Clientes que compraron hace tiempo y con baja frecuencia — en riesgo de abandonar la plataforma |
+
 ## ⚠️ Limitaciones
 - El dataset es **estático** — termina en agosto 2018 y no se actualiza
 - El revenue representa el **GMV** — valor total transaccionado, no los ingresos reales de Olist
